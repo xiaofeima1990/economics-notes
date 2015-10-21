@@ -1,0 +1,1000 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Agricultural Household Model
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Standard
+In developing countries, people who are farmer are very special.
+ Because they earn at least part of their livelihood through work in their
+ own enterprises(the land).
+ At the same time, they also can consume a portion of their product(they
+ grow crops, harvest them, sell them or eat them).
+ We know that due to the unique feature of agriculture, household labour
+ is often an important input into the production process of the farmer's
+ production activity.
+ Consequently, Consequently, individuals make simultaneous decisions about
+ production (the level of output, the demand for factors, and the choice
+ of technology) and consumption (labor supply and commodity demand).
+ This mixture just describes common daily life of most families in developing
+ countries and provides starting point (Agricultural Household Model) for
+ our analysis.
+\end_layout
+
+\begin_layout Section
+Baseline Model Overview
+\end_layout
+
+\begin_layout Standard
+The canonical model of an agricultural household includes a utility function,
+ defined over consumption by each member of the household (usually can be
+ simplified by one or two members), and a budget constraint, which incorporates
+ production on assets owned by the household.
+ 
+\end_layout
+
+\begin_layout Standard
+Consider a typical household with two household members whose aggregate
+ utility is represented by a household utility function: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\max U(c_{1},c_{2},l_{1},l_{2})
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where each member gets utility from consuming a good (
+\begin_inset Formula $c_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $c_{2}$
+\end_inset
+
+ ) and from leisure( 
+\begin_inset Formula $l_{1}$
+\end_inset
+
+ and 
+\begin_inset Formula $l_{2}$
+\end_inset
+
+ ).
+ Utility is an increasing function of both 
+\begin_inset Formula $c$
+\end_inset
+
+ and 
+\begin_inset Formula $l$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+he most simple agricultural household models assume that each household
+ faces a complete set of competitive markets.
+ (This includes, in more general models than the one presented here, a complete
+ set of markets for time- and state-indexed commodities.) Such assumption
+ can be released in the following extending part
+\end_layout
+
+\begin_layout Standard
+About the Budget Constrains, we have the following setup: 
+\end_layout
+
+\begin_layout Standard
+Let 
+\begin_inset Formula $p$
+\end_inset
+
+ be the price of output, and 
+\begin_inset Formula $w$
+\end_inset
+
+ be the wage of output (for simplicity, that the labor of the two family
+ members is homogeneous.) The household can produce the good on its farm
+ according to the concave production function 
+\begin_inset Formula $F(L,A)$
+\end_inset
+
+, where A is the area of the farm cultivated by the household and 
+\begin_inset Formula $L$
+\end_inset
+
+ is the amount of labour used on the farm.
+ Let 
+\begin_inset Formula $E_{i}^{L}$
+\end_inset
+
+ be person's endowment of time, 
+\begin_inset Formula $E^{A}$
+\end_inset
+
+ the household's endowment of land, and 
+\begin_inset Formula $r$
+\end_inset
+
+ the price of one unit of land.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray}
+p(c_{1}+c_{2})+wL^{h}+rA^{h} & \leq & F(L,A)+w(L_{1}^{m}+L_{2}^{m})+rA^{m}\\
+L & = & L_{1}^{f}+L_{2}^{f}+L^{h}\\
+A & = & A^{f}+A_{h}\\
+E^{A} & = & A^{f}+A^{m},E_{i}^{L}=L_{i}^{f}+L_{i}^{m}+l_{i},i\in\{1,2\}\\
+c_{i},l_{i},L_{i}^{f},L_{i}^{m},A^{f},A^{m} & \geq & 0,\ i\in\{1,2\}
+\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(*) is the budget constraint which tells us cash expenditures on consumption,
+ hired labour(
+\begin_inset Formula $L^{h}$
+\end_inset
+
+), and rented land (
+\begin_inset Formula $A^{h}$
+\end_inset
+
+) cannot exceed cash revenues from farming, market labour (rented labour
+ $L_i^m$, and land rented out (
+\begin_inset Formula $A^{m}$
+\end_inset
+
+).
+ the rest equations are resource constraints: labour use on the farm is
+ household labour used on the farm plus hired labour; land use on the farm
+ is owned land used on the farm plus hired land; the household's land endowment
+ is used on its own farm or rented out, and each individual's time endowment
+ equals their labour use on the farm, plus market labour time, plus leisure
+ time.
+\end_layout
+
+\begin_layout Standard
+The 
+\series bold
+maximization 
+\series default
+is with respect to consumption and leisure, hired labour and land, and household
+ labour and land supplied to the market and used on the household farm.
+ 
+\end_layout
+
+\begin_layout Standard
+when we substitute the (3)-(5) into (*), we have: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray}
+p(c_{1}+c_{2})+w(l_{1}+l_{2}) & \leq & \Pi+w(E_{1}^{L}+E_{2}^{L})+rE^{A}\label{eq:bc}\\
+\Pi & = & F(L,A)-wL-rA\\
+c_{i},l_{i},L,A & \geq & 0,\ i\in\{1,2\}
+\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:bc"
+
+\end_inset
+
+is called the ‘full-income’ constraint: the value of consumption cannot
+ exceed the value of the household's endowment plus farm profits.
+ The household's problem is now to maximize (1) (with respect to 
+\begin_inset Formula $L,A,c_{i}$
+\end_inset
+
+ and 
+\begin_inset Formula $l_{i}$
+\end_inset
+
+ ) subject to (7)–(9).
+ 
+\end_layout
+
+\begin_layout Standard
+Three Key things to notices: 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+none
+\series default
+ of the variables in (7), the equation for farm profits is in (1)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+all
+\series default
+ of the variables in (1) are on the left side (and none are on the right
+ side) of (7)
+\end_layout
+
+\begin_layout Itemize
+all variables on the right side of (7) other than Π are fixed 
+\end_layout
+
+\begin_layout Standard
+As long as 
+\begin_inset Formula $U()$
+\end_inset
+
+ is characterized by local non-satiation, then (7) is binding at the solution
+ and the maximized value of 
+\begin_inset Formula $U()$
+\end_inset
+
+ is increasing in 
+\begin_inset Formula $\Pi$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+This implies that L and A can first be chosen to maximize prifit 
+\begin_inset Formula $\Pi$
+\end_inset
+
+, and thus maximize the right side of (7), and then 
+\begin_inset Formula $c_{1},c_{2},l_{1}$
+\end_inset
+
+and 
+\begin_inset Formula $l_{2}$
+\end_inset
+
+ can be chosen to maximize (1) subject to (7).
+ This ability to “separate” the maximization problem into two steps is called
+ the separability property of this model of agricultural households, because
+ the production decisions of the household are separable from the household's
+ consumption choices.
+ 
+\end_layout
+
+\begin_layout Standard
+The separation property is robust to the non-existence of some markets.
+ For example, if there is no land market, then replace 
+\begin_inset Formula $A$
+\end_inset
+
+ by 
+\begin_inset Formula $E^{A}$
+\end_inset
+
+ in (8) and set 
+\begin_inset Formula $r=0$
+\end_inset
+
+.
+ The problem remains recursive, and the household chooses labour inputs
+ to maximize profits given the household's endowment of land.
+ This choice is independent of the household's preferences or endowment
+ of labour.
+ An analogous result is true if there is no labour market but land can be
+ traded freely.
+ Thus, the household's decision-making process can be divided in two stages:
+ first, farm profit is maximized, and then utility is maximized given the
+ full income budget constraint.
+ 
+\end_layout
+
+\begin_layout Standard
+we can simplify the model and describe it by graph.
+ Suppose that U(·) is such that at all prices and wages 
+\begin_inset Formula $c_{1}=c_{2}=c$
+\end_inset
+
+ and 
+\begin_inset Formula $l_{1}=l_{2}=l$
+\end_inset
+
+.
+ Again, assuming that there is no market for land, the household chooses
+ 
+\begin_inset Formula $c,l,$
+\end_inset
+
+and 
+\begin_inset Formula $L.$
+\end_inset
+
+ 
+\begin_inset Formula $F(L,E^{A})$
+\end_inset
+
+ is the production function on the household farm, given land endowment
+ 
+\begin_inset Formula $E^{A}$
+\end_inset
+
+ .
+ Given the real wage rate w/p, farm profits are maximized at 
+\begin_inset Formula $\Pi(w/p.E^{A})$
+\end_inset
+
+ using 
+\begin_inset Formula $L^{*}$
+\end_inset
+
+units of labour on the farm (
+\begin_inset Formula $L^{*}=argmax\{F(L,E^{A})-(w/p)L\}$
+\end_inset
+
+ ), Then, given the budget constraint 
+\begin_inset Formula $pc=wE^{L}+\Pi(w/p.E^{A})-wl$
+\end_inset
+
+ .
+ household utility is maximized by choosing consumption 
+\begin_inset Formula $c^{*}$
+\end_inset
+
+ and leisure 
+\begin_inset Formula $l^{*}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+To further illustrate the 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\Pi(w/p.E^{A})=F(L,E^{A})-(w/p)L\}$
+\end_inset
+
+, 
+\begin_inset Formula $(w/p)$
+\end_inset
+
+ can be regarded as 
+\begin_inset Formula $\Pi(w/p.E^{A})$
+\end_inset
+
+ slop, maximization requires 
+\begin_inset Formula $\Pi(w/p.E^{A})$
+\end_inset
+
+ be on the edge of 
+\begin_inset Formula $F(L,E^{A})$
+\end_inset
+
+ .
+ The same principal when we turn to the maximization problem of 
+\begin_inset Formula $U(c,l)$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename f1.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Incomplete Market
+\end_layout
+
+\begin_layout Standard
+If multiple markets are incomplete, the separation property may no longer
+ hold.
+ The household no longer maximizes profit functions, and production decisions
+ depend upon the preferences and endowments of the household.
+ 
+\end_layout
+
+\begin_layout Subsection
+imperfections in both the land and labour markets
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+A classic example
+\series default
+ is the problem of a household that faces imperfections in both the land
+ and labour markets.
+ Suppose again that there is no market for land, but now add the possibility
+ that there is some involuntary unemployment in the rural labour market.
+ The household cultivates its endowment of land, and might face a binding
+ constraint on the amount of labour it can supply off its own farm.
+ The household problem (now assuming just one person in the household) is:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\max_{c,l,L^{H},L^{F}}U(c,l)
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+subject to 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray}
+pc & = & F(L^{f}+L^{h},E^{A})-wL^{h}+wL^{m}\\
+E^{L} & = & l+L^{f}+L^{m}\\
+L^{m} & \leq & M
+\end{eqnarray}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $L^{h}$
+\end_inset
+
+ is labour hired by the household to work on its farm,
+\begin_inset Formula $L^{f}$
+\end_inset
+
+ is the household's own labour on its farm, 
+\begin_inset Formula $L^{m}$
+\end_inset
+
+ is the time spent by the household working for a wage.
+ and 
+\begin_inset Formula $M$
+\end_inset
+
+ is the maximum amount of time the household can spend working for a wage
+ as a result of some (here unmodelled) labour market rationing
+\end_layout
+
+\begin_layout Paragraph
+not binding 
+\end_layout
+
+\begin_layout Standard
+if 
+\begin_inset Formula $L^{m}\leq M$
+\end_inset
+
+ is not binding, then (11) becomes 
+\begin_inset Formula $pc+wl=F(L,EA)−wL+wE^{L}$
+\end_inset
+
+ , where 
+\begin_inset Formula $L$
+\end_inset
+
+ is the amount of labour used on the farm.
+ In this case, the household maximizes profits and the separation property
+ holds.
+\end_layout
+
+\begin_layout Standard
+If separation holds, and the production function has constant returns to
+ scale (CRTS), then all farms are identical.
+ With CRTS, we can write 
+\begin_inset Formula $F(L,E^{A})=E^{A}f(L/E^{A})$
+\end_inset
+
+, and the first-order condition for labour use is 
+\begin_inset Formula $w=f′(L/E^{A})$
+\end_inset
+
+.
+ All unconstrained farmers facing the same wage will use the same amount
+ of labour per hectare, and achieve the same yield (output per unit of area)
+ and output per unit of labour.
+\end_layout
+
+\begin_layout Paragraph
+binding 
+\end_layout
+
+\begin_layout Standard
+In this case, 
+\begin_inset Formula $L^{m}=M,L^{h}=0$
+\end_inset
+
+.
+ The household's problem becomes:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\max_{c,l}U(c,l)
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+subject to 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+pc=F(E^{L}-M,E^{A})+wM
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+first order conditions 
+\begin_inset Formula $U_{l}/U_{c}=F_{L}$
+\end_inset
+
+.
+ The household's problem is illustrated in figure 2 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename f2.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+inner axes demonstrate production on the household's farm, with output on
+ the vertical axis and labour input on the horizontal axis.
+ 
+\begin_inset Formula $M$
+\end_inset
+
+ hours are spent working in the market, earning 
+\begin_inset Formula $wM$
+\end_inset
+
+.
+ The household's remaining labour time (
+\begin_inset Formula $L^{f}$
+\end_inset
+
+ ) is spent on the farm, producing 
+\begin_inset Formula $q^{*}$
+\end_inset
+
+ .
+ So the household works 
+\begin_inset Formula $M+L^{f}$
+\end_inset
+
+ hours and consumes 
+\begin_inset Formula $pc^{*}=wM+F(L^{f},E^{A})$
+\end_inset
+
+ units of the good.
+ The household achieves a maximized utility of 
+\begin_inset Formula $U(c^{*},l^{*})$
+\end_inset
+
+ at point 
+\begin_inset Formula $A$
+\end_inset
+
+.
+ The household's production choice clearly depends on its preferences and
+ its endowment, and the separation property does not hold.
+\end_layout
+
+\begin_layout Standard
+This sort of market structure could give rise to an oft-observed pattern
+ in the rural areas of less developed countries.
+ Many observers find that 
+\series bold
+small farms
+\series default
+ are often cultivated more intensively than 
+\series bold
+large farm
+\series default
+s.
+ More labour per unit area is used on small farms, and yields are larger
+ on these smaller farms.
+ Consider a household with more land than the household consuming at point
+ 
+\begin_inset Formula $A$
+\end_inset
+
+, but facing the same wage and labour market constraint.
+ If this household were to cultivate with the same intensity as household
+ A, it would have to choose to produce and consume at point 
+\begin_inset Formula $C$
+\end_inset
+
+ in the figure.
+ If leisure is a normal good,
+\begin_inset Formula $C$
+\end_inset
+
+ will not be chosen.
+ Instead, the household will choose to produce and consume at a point such
+ as 
+\begin_inset Formula $B$
+\end_inset
+
+,cultivating its larger farm less intensively than the smaller farm of household
+ 
+\begin_inset Formula $A$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+by implicitly differentiating the first-order condition:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\frac{dL}{dE^{A}}=...<\frac{L}{E^{A}}\ if\ U_{cl}\geq0
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Labour and land market imperfections are perhaps the most straightforward
+ rationale for an inverse relationship between farm size and cultivation
+ intensity.
+\end_layout
+
+\begin_layout Subsection
+Risk-Averse 
+\end_layout
+
+\begin_layout Standard
+suppose that labour markets work well and the production function is CRTS
+ but that production is risky, households are risk-averse, and insurance
+ markets do not exist.
+ To simplify this problem, suppose that households supply labour inelastically
+ and that there is only a single good.
+ The household's problem is to 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\max_{L\geq0}EU(c)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+subject to 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+c=\theta E^{A}f(\frac{L}{E^{A}})-wL+wE^{L}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $θ$
+\end_inset
+
+ is a random variable with positive support and mean one.
+ The household chooses labour so that 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+EU^{'}(c)[\theta f^{'}(\frac{L}{E^{A}})-w]=0
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The separation property, therefore, does not hold.
+ The above equation can be expressed as :
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray*}
+f^{'}EU^{'}(\theta-1) & = & EU^{'}(w-f^{'})\\
+E\theta & = & 1\\
+f^{'}cov(U^{'},\theta) & = & (w-f^{'})EU^{'}
+\end{eqnarray*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Consumption increases with 
+\begin_inset Formula $θ$
+\end_inset
+
+, so 
+\begin_inset Formula $cov(U′,θ)<0$
+\end_inset
+
+; 
+\begin_inset Formula $f^{′}$
+\end_inset
+
+ and 
+\begin_inset Formula $EU^{'}$
+\end_inset
+
+are both positive, so 
+\begin_inset Formula $w<f^{'}.$
+\end_inset
+
+This land is farmed less intensively than land that is cultivated under
+ (expected) profit maximization.
+ We have shown that a combination of labour, land, and/or insurance market
+ failures could be associated with this observation; it is possible to construct
+ simple models of financial market imperfections that lead to the same observati
+on.
+\end_layout
+
+\begin_layout Section
+unitary household model
+\end_layout
+
+\begin_layout Standard
+In setting up the problem of the household, we rather simply wrote down
+ a‘household utility function’ , which depended upon the leisure and consumption
+ vector of each of the two individuals in the household.
+ This approach is called 
+\emph on
+unitary household model
+\emph default
+.
+ The standard demand theory applies in this context, and empirical implementatio
+n is straightforward.
+ Indeed the econometrician is often only able to observe aggregate household
+ behavior.
+ But such setup , the unitary model of the household, has increasingly come
+ under attack on both the theoretical and empirical fronts.
+ In the unitary framework, the process by which individual preferences get
+ aggregated into a household utility function is essentially a“black box”;
+ issues such as intra household inequality and household formation/dissolution
+ cannot be handled very well.
+ On the empirical side, important predictions of the unitary model have
+ consistently failed to find support in the data.
+ 
+\end_layout
+
+\begin_layout Standard
+The simplest case is that of a household that consumes only private goods
+ and whose members have identical homothetic preferences.
+ If this household always achieved a Pareto-efficient allocation of resources
+ within the household, then by the second welfare theorem this allocation
+ could be achieved through a competitive equilibrium within the household.
+ Since the income-consumption paths of the members of the household are
+ parallel lines, aggregate demand is independent of the distribution of
+ income (and utility) within the household.
+ 
+\end_layout
+
+\begin_layout Standard
+Let us take an example of unitary model: Consider a two-member household
+ consisting of a husband and wife, indexed respectively by h and w .
+ The husband and wife each has an individual utility function that depends
+ on own consumption of private goods, but by consensus 2 ,they agree to
+ maximize a social welfare function of their individual utilities, subject
+ to a single budget constraint that pools together the two individual incomes.
+ Let c h and c w denote the consumption, and y h and y w denote the income,
+ of the husband and wife.
+ The household’s problem is equivalent to maximizing a single utility function,
+ U ,subject to a pooled budget constraint
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\max_{c^{h},c^{w}}U(c^{h},c^{w})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+p^{h}c^{h}+p^{w}c^{w}=y^{h}+y^{w}=y
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $p^{h}$
+\end_inset
+
+ and 
+\begin_inset Formula $p^{w}$
+\end_inset
+
+ are the prices of the husband’s and wife’s consumption and 
+\begin_inset Formula $y$
+\end_inset
+
+ is defined as the households total income, i.e.
+ the sum of the husband’s and wife’s income.
+ Solving the household maximization problem yields demand functions, f h
+ and f w that depend only on prices and total income.
+ Formally, we have:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+c^{i}=f^{i}(p^{h},p^{w},y)\ i=h,w
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A central prediction of the unitary model of the household is income pooling,
+ which is the idea that the household’s demands depend only on its total
+ income, y ,and not on the sources of income.
+ Empirically, 
+\end_layout
+
+\begin_layout Itemize
+if total income is held constant, a change in the sources of income would
+ have no effect on demands.
+\end_layout
+
+\begin_layout Itemize
+a marginal increase in one source of income has the exact same effect on
+ demands as a marginal increase in any other source of income
+\end_layout
+
+\end_body
+\end_document
